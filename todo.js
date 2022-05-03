@@ -47,6 +47,8 @@ window.addEventListener('load', () => {
 
         list_ele.appendChild(task_ele);
 
+        input.value = "";
+
         task_edit_ele.addEventListener('click', () => {
             if(task_edit_ele.innerText.toLowerCase() == "edit") {
                 task_input_ele.removeAttribute("readonly");
